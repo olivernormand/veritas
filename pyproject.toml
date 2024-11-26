@@ -1,0 +1,23 @@
+[project]
+name = "veritas"
+version = "0.1.0"
+description = "A package to help with the analysis of data"
+readme = "README.md"
+authors = [
+    { name = "Oliver Normand", email = "oliver@normand.uk" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "kaggle>=1.6.17",
+    "matplotlib>=3.9.2",
+    "numpy>=2.1.3",
+    "pandas>=2.2.3",
+    "xgboost>=2.1.3",
+]
+
+[project.scripts]
+veritas = "veritas:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
