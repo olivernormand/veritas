@@ -11,4 +11,9 @@ wheels/
 
 # Data files
 data/
+**/*.csv
+**/*.txt
+**/*.pth
 
+# MacOS
+.DS_Store
